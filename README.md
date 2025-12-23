@@ -43,32 +43,33 @@ Detailed performance per class:
 * **DME:** Precision: 0.97 | Recall: 0.94 | F1: 0.96
 * **Drusen:** Precision: 0.91 | Recall: 0.83 | F1: 0.87
 
-
-*├── data/
-*│   ├── train/           # Eğitim veri seti (76,515 görüntü)
-*│   │   ├── CNV/
-*│   │   ├── DME/
-*│   │   ├── DRUSEN/
-*│   │   └── NORMAL/
-*│   ├── val/             # Doğrulama veri seti (21,861 görüntü)
-*│   │   ├── CNV/
-*│   │   ├── DME/
-*│   │   ├── DRUSEN/
-*│   │   └── NORMAL/
-*│   └── test/            # Test veri seti (10,933 görüntü)
-*│       ├── CNV/
-*│       ├── DME/
-*│       ├── DRUSEN/
-*│       └── NORMAL/
-*├── metrics/
-*│   └── f1score.py       # Özel F1-Skoru metrik sınıfı
-*├── .gitattributes       # Git LFS veya özellik yapılandırmaları
-*├── LICENSE              # Proje lisans dosyası
-*├── Model_Prediction.ipynb # Tahmin ve görselleştirme işlemleri
-*├── Trained_Eye_Disease_model.h5 # Kayıtlı model (Legacy H5 formatı)
-*├── Trained_Eye_Disease_model.keras # Kayıtlı model (Yeni Keras formatı)
-*├── Training_history.pkl # Eğitim logları (Loss/Accuracy verileri)
-*└── Training_Model.ipynb # Modelin eğitim süreci kaynak kodu
+## Project Directory Structure
+.
+├── data/
+│   ├── test/                # Test dataset (10,933 images)
+│   │   ├── CNV/
+│   │   ├── DME/
+│   │   ├── DRUSEN/
+│   │   └── NORMAL/
+│   ├── train/               # Training dataset (76,515 images)
+│   │   ├── CNV/
+│   │   ├── DME/
+│   │   ├── DRUSEN/
+│   │   └── NORMAL/
+│   └── val/                 # Validation dataset (21,861 images)
+│       ├── CNV/
+│       ├── DME/
+│       ├── DRUSEN/
+│       └── NORMAL/
+├── metrics/
+│   └── f1score.py           # Custom F1-Score metric implementation
+├── .gitattributes
+├── LICENSE
+├── Model_Prediction.ipynb   # Notebook for model inference and evaluation
+├── Training_Model.ipynb     # Notebook for model training
+├── Trained_Eye_Disease_model.h5
+├── Trained_Eye_Disease_model.keras
+├── Training_history.pkl     # Stored training metrics (loss, accuracy, etc.)
 
 
 ## 🛠️ Installation & Usage
