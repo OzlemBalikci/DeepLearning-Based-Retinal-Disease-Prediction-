@@ -78,5 +78,6 @@ Project Directory Structure
 
 ### Prerequisites
 Ensure you have Python 3.10+ and the following libraries installed:
+Anaconda Porpmt and Nvidia Gpu recommended
 ```bash
 pip install tensorflow matplotlib seaborn pandas scikit-learn
