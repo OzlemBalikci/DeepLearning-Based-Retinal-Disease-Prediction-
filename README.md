@@ -43,7 +43,10 @@ Detailed performance per class:
 * **DME:** Precision: 0.97 | Recall: 0.94 | F1: 0.96
 * **Drusen:** Precision: 0.91 | Recall: 0.83 | F1: 0.87
 
-## Project Directory Structure
+
+```text
+Project Directory Structure
+
 .
 ├── data/
 │   ├── test/                # Test dataset (10,933 images)
@@ -70,7 +73,7 @@ Detailed performance per class:
 ├── Trained_Eye_Disease_model.h5
 ├── Trained_Eye_Disease_model.keras
 └── Training_history.pkl     # Stored training metrics (loss, accuracy, etc.)
-
+```
 ## 🛠️ Installation & Usage
 
 ### Prerequisites
