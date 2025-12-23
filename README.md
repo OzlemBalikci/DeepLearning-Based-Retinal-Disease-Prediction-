@@ -69,8 +69,7 @@ Detailed performance per class:
 ├── Training_Model.ipynb     # Notebook for model training
 ├── Trained_Eye_Disease_model.h5
 ├── Trained_Eye_Disease_model.keras
-├── Training_history.pkl     # Stored training metrics (loss, accuracy, etc.)
-
+└── Training_history.pkl     # Stored training metrics (loss, accuracy, etc.)
 
 ## 🛠️ Installation & Usage
 
